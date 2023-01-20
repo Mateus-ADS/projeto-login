@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    div#imagem {
+        width: 35%;
+        height: 330px;
+        background: url(../imagens/pexels-ali-pazani-2777898.jpg) center top;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+    div#formulario {
+        width: 420px;
+        height: 330px;
+        position: absolute;
+        top: 53%;
+        left: 64%;
+        transform: translate(-50%, -51%);
+        border-radius: 0px 15px 15px 0px;
+    }
+    div#formulario > h1 {
+        padding: 7px;
+    }
+    div#formulario > p {
+        margin-top: -20px;
+    }
+    input#senha{
+        position: relative;
+        top: -7px;
+        left: 10px;
+        width: 285px;
+    }
+    input#usuario {
+        position: relative;
+        top: -7px;
+        left: 10px;
+        width: 285px;
+    }
+    #entrar {
+        width: 300px;
+    }
+    #rec-senha {
+        width: 300px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width:1200px) {
+
+}
+@media screen and (min-width: 1201px) { 
+
+}

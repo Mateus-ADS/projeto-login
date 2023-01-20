@@ -8,3 +8,117 @@
 
 */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: blueviolet;
+    width: 100vw;
+}
+section#login {
+    text-align: center;
+}
+
+div#formulario > h1 {
+    padding: 20px;
+}
+div#formulario > p {
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+input#usuario {
+    padding: 8px;
+    position: relative;
+    margin-bottom: 10px;
+    width: 170px;
+    border-radius: 7px;
+    top: -7px;
+    background-color: #82ebe7;
+}
+input#usuario:focus {
+   background-color: white;
+   color: black;
+}
+
+input#senha:focus {
+    background-color: white;
+    color: black;
+}
+input#senha {
+    padding: 8px;
+    position: relative;
+    top: -7px;
+    width: 170px;
+    border-radius: 7px;
+    background-color: #82ebe7;
+    
+}
+
+div#imagem {
+    background: url(../imagens/pexels-ali-pazani-2777898.jpg) center center ;
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    width: 290px;
+    margin-top: 20px;
+    border-radius:  10px 10px 0px 0px;
+}
+div#formulario {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 290px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.438);
+}
+
+.material-symbols-outlined {
+    display: inline-block;
+    background-color:  rgb(140, 47, 228);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 0px 10px 0px 10px;
+    width: 45px;
+}
+
+#entrar {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    background-color: #3ac5c0;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px 15px 0px 15px;
+    border: 0px;
+    width: 225px;
+}
+#rec-senha {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(255, 255, 255);
+    color: #50ceca;
+    font-weight: lighter;
+    border-radius: 0px 15px 0px 15px;
+    border: 0px;
+    width: 225px;
+    border: 1px solid #49a09d9a;
+}
+
+#entrar:hover {
+    background-color: #50ceca;
+}
+#rec-senha:hover {
+    background-color: #3ac5c0;
+    color: white;
+}
