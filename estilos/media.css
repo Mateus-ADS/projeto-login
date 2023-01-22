@@ -1,55 +1,51 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width:992px) {
-    div#imagem {
-        width: 35%;
-        height: 330px;
-        background: url(../imagens/pexels-ali-pazani-2777898.jpg) center top;
-        background-size: cover;
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        border-radius: 10px 0px 0px 10px;
+    body {
+        background-image: linear-gradient(to top, #49a09d,#8a2be2);
+    }
+    section#login {
+        width: 80vw;
+        height: 320px;
+    }
+    section#login > div#imagem {
+        background-position: center center;
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
         
     }
-    div#formulario {
-        width: 420px;
-        height: 330px;
-        position: absolute;
-        top: 53%;
-        left: 64%;
-        transform: translate(-50%, -51%);
-        border-radius: 0px 15px 15px 0px;
+    div#formulario > p {
+        margin: 15px 0px;
     }
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d,#5f2c82);
+    }
+    section#login {
+        width: 990px;
+        height: 400px;
+    }
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    } 
     div#formulario > h1 {
-        padding: 7px;
+        font-size: 2em;
     }
     div#formulario > p {
-        margin-top: -20px;
+        font-size: 1.2em;
+        margin: 20px 0px;
     }
-    input#senha{
-        position: relative;
-        top: -7px;
-        left: 10px;
-        width: 285px;
-    }
-    input#usuario {
-        position: relative;
-        top: -7px;
-        left: 10px;
-        width: 285px;
-    }
-    #entrar {
-        width: 300px;
-    }
-    #rec-senha {
-        width: 300px;
-    }
-}
-@media screen and (min-width: 1025px) and (max-width:1200px) {
-
-}
-@media screen and (min-width: 1201px) { 
-
 }
