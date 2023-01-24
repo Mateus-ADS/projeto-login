@@ -16,8 +16,7 @@
     }
     section#login > div#formulario {
         float: right;
-        width: 60%;
-        
+        width: 60%; 
     }
     div#formulario > p {
         margin: 15px 0px;
